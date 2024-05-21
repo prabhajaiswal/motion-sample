@@ -1,0 +1,52 @@
+
+.content2{
+    height: 150vh;
+}
+
+
+/* Section4.css */
+.content2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .section1, .section2 {
+    flex: 1 1 45%;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    box-sizing: border-box;
+    background-color: #1f1f38;
+  }
+  
+  .section1 h1, .section2 h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .section1 h2, .section2 h2 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .section1 img, .section2 img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .section1, .section2 {
+      flex: 1 1 100%;
+    }
+  }
+  
+
+  .section2{
+    margin-top: 50px;
+  }

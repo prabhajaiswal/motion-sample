@@ -1,0 +1,102 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+.anshu{
+    height: 200vh;
+}
+.box {
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    
+    transition: transform 0.2s;
+    height: 60vh;
+    background-color: #1f1f38;
+}  
+
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+.icon {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1em;
+    color: #555;
+}
+   
+
+.row1{
+    height: 40vh;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #1f1f38;
+    text-align: center;
+    transition: transform 0.2s;
+   
+    margin: 200px 50px;
+}
+
+.row-sub{
+    margin-top: 20px;
+}
+.row2{
+    margin-bottom: 30px;
+  
+}
+
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background: linear-gradient(to right, #f76b1c, #9f00f5);
+    color: white;
+   
+   margin-top: auto;
+   
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+    width: 100%;
+    font-size: 14px;
+  
+}
+.footer-links a {
+    color: white;
+    text-decoration: none;
+  
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+.anshu{
+    margin-top: 100px;
+}
+.row1{
+    margin-top: 100px;
+   
+}

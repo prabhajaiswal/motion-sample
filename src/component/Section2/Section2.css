@@ -1,0 +1,154 @@
+body {
+    
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: white;
+}
+
+.container {
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.envatoMarket {
+    font-size: 24px;
+    font-weight: bold;
+    color: #5dc1b9;
+}
+
+.buyNow {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.motion {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ff47da;
+}
+
+.artEffect {
+    font-size: 48px;
+    font-weight: bold;
+    color: #fff700;
+    margin-left: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: #ff6347;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.purchaseNow {
+    background-color: #ffffff;
+    color: #121212;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+.content2{
+height: 50vh;
+
+}
+
+.sec{
+    display: flex;
+    flex: 1;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.sec1{
+    flex: 0.6;
+    margin-right: 50px;
+}
+.sec1 h3 {
+    font-size: 20px;
+}
+.sec2{
+    flex: 0.4;
+    margin-left: auto;
+}
+.container {
+    display: flex;
+    justify-content: flex-start; /* Aligns items to the start of the container */
+    align-items: center; /* Aligns items vertically in the center */
+  }
+  
+  .container img {
+    margin: 0 10px; /* Adds some spacing between images */
+  }
+  
+
+
+  
+.gradient-button {
+    background: linear-gradient(to right, #7f00ff, #ff6a00);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    padding: 20px 40px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    height: 20px;
+}
+
+.gradient-button .arrow {
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gradient-button:hover .arrow {
+    transform: translateX(5px);
+}
+
+.gradient-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(127, 0, 255, 0.5);
+}
+
+
+
